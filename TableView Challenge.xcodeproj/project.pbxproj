@@ -14,13 +14,13 @@
 		D1AFDA191964842C0005F918 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AFDA181964842C0005F918 /* main.m */; };
 		D1AFDA1D1964842C0005F918 /* DWZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AFDA1C1964842C0005F918 /* DWZAppDelegate.m */; };
 		D1AFDA201964842C0005F918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1AFDA1E1964842C0005F918 /* Main.storyboard */; };
-		D1AFDA231964842C0005F918 /* DWZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AFDA221964842C0005F918 /* DWZViewController.m */; };
 		D1AFDA251964842C0005F918 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AFDA241964842C0005F918 /* Images.xcassets */; };
 		D1AFDA2C1964842C0005F918 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AFDA2B1964842C0005F918 /* XCTest.framework */; };
 		D1AFDA2D1964842C0005F918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AFDA0C1964842C0005F918 /* Foundation.framework */; };
 		D1AFDA2E1964842C0005F918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AFDA101964842C0005F918 /* UIKit.framework */; };
 		D1AFDA361964842C0005F918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1AFDA341964842C0005F918 /* InfoPlist.strings */; };
 		D1AFDA381964842C0005F918 /* TableView_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AFDA371964842C0005F918 /* TableView_ChallengeTests.m */; };
+		D1AFDA431964851C0005F918 /* DWZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AFDA421964851C0005F918 /* DWZTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		D1AFDA1B1964842C0005F918 /* DWZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWZAppDelegate.h; sourceTree = "<group>"; };
 		D1AFDA1C1964842C0005F918 /* DWZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWZAppDelegate.m; sourceTree = "<group>"; };
 		D1AFDA1F1964842C0005F918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1AFDA211964842C0005F918 /* DWZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWZViewController.h; sourceTree = "<group>"; };
-		D1AFDA221964842C0005F918 /* DWZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWZViewController.m; sourceTree = "<group>"; };
 		D1AFDA241964842C0005F918 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1AFDA2A1964842C0005F918 /* TableView ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1AFDA2B1964842C0005F918 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D1AFDA331964842C0005F918 /* TableView ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableView ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		D1AFDA351964842C0005F918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1AFDA371964842C0005F918 /* TableView_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_ChallengeTests.m; sourceTree = "<group>"; };
+		D1AFDA411964851C0005F918 /* DWZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWZTableViewController.h; path = ../DWZTableViewController.h; sourceTree = "<group>"; };
+		D1AFDA421964851C0005F918 /* DWZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWZTableViewController.m; path = ../DWZTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				D1AFDA1B1964842C0005F918 /* DWZAppDelegate.h */,
 				D1AFDA1C1964842C0005F918 /* DWZAppDelegate.m */,
 				D1AFDA1E1964842C0005F918 /* Main.storyboard */,
-				D1AFDA211964842C0005F918 /* DWZViewController.h */,
-				D1AFDA221964842C0005F918 /* DWZViewController.m */,
+				D1AFDA411964851C0005F918 /* DWZTableViewController.h */,
+				D1AFDA421964851C0005F918 /* DWZTableViewController.m */,
 				D1AFDA241964842C0005F918 /* Images.xcassets */,
 				D1AFDA131964842C0005F918 /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1AFDA231964842C0005F918 /* DWZViewController.m in Sources */,
+				D1AFDA431964851C0005F918 /* DWZTableViewController.m in Sources */,
 				D1AFDA1D1964842C0005F918 /* DWZAppDelegate.m in Sources */,
 				D1AFDA191964842C0005F918 /* main.m in Sources */,
 			);
